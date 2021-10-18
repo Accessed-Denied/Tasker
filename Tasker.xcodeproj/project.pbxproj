@@ -16,6 +16,9 @@
 		9149DA76271DD9A600E6D878 /* TaskerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA75271DD9A600E6D878 /* TaskerTests.swift */; };
 		9149DA80271DD9A600E6D878 /* TaskerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA7F271DD9A600E6D878 /* TaskerUITests.swift */; };
 		9149DA82271DD9A600E6D878 /* TaskerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA81271DD9A600E6D878 /* TaskerUITestsLaunchTests.swift */; };
+		9149DA91271DDAE200E6D878 /* sound-ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9149DA8E271DDAE200E6D878 /* sound-ding.mp3 */; };
+		9149DA92271DDAE200E6D878 /* sound-rise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9149DA8F271DDAE200E6D878 /* sound-rise.mp3 */; };
+		9149DA93271DDAE200E6D878 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9149DA90271DDAE200E6D878 /* sound-tap.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		9149DA7B271DD9A600E6D878 /* TaskerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9149DA7F271DD9A600E6D878 /* TaskerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerUITests.swift; sourceTree = "<group>"; };
 		9149DA81271DD9A600E6D878 /* TaskerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9149DA8E271DDAE200E6D878 /* sound-ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-ding.mp3"; sourceTree = "<group>"; };
+		9149DA8F271DDAE200E6D878 /* sound-rise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-rise.mp3"; sourceTree = "<group>"; };
+		9149DA90271DDAE200E6D878 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
+		9149DA9A271DDC0C00E6D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +105,15 @@
 		9149DA5E271DD9A300E6D878 /* Tasker */ = {
 			isa = PBXGroup;
 			children = (
+				9149DA9A271DDC0C00E6D878 /* Info.plist */,
 				9149DA5F271DD9A300E6D878 /* TaskerApp.swift */,
-				9149DA61271DD9A300E6D878 /* ContentView.swift */,
+				9149DA95271DDB3400E6D878 /* View */,
+				9149DA99271DDB7F00E6D878 /* Model */,
+				9149DA98271DDB5500E6D878 /* Style */,
+				9149DA97271DDB4A00E6D878 /* Utility */,
+				9149DA94271DDB1400E6D878 /* Sound */,
+				9149DA96271DDB3C00E6D878 /* Extension */,
 				9149DA63271DD9A600E6D878 /* Assets.xcassets */,
-				9149DA68271DD9A600E6D878 /* Persistence.swift */,
-				9149DA6A271DD9A600E6D878 /* Tasker.xcdatamodeld */,
 				9149DA65271DD9A600E6D878 /* Preview Content */,
 			);
 			path = Tasker;
@@ -131,6 +142,54 @@
 				9149DA81271DD9A600E6D878 /* TaskerUITestsLaunchTests.swift */,
 			);
 			path = TaskerUITests;
+			sourceTree = "<group>";
+		};
+		9149DA94271DDB1400E6D878 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				9149DA8E271DDAE200E6D878 /* sound-ding.mp3 */,
+				9149DA8F271DDAE200E6D878 /* sound-rise.mp3 */,
+				9149DA90271DDAE200E6D878 /* sound-tap.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		9149DA95271DDB3400E6D878 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9149DA61271DD9A300E6D878 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9149DA96271DDB3C00E6D878 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9149DA97271DDB4A00E6D878 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9149DA98271DDB5500E6D878 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		9149DA99271DDB7F00E6D878 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9149DA68271DD9A600E6D878 /* Persistence.swift */,
+				9149DA6A271DD9A600E6D878 /* Tasker.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,7 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9149DA67271DD9A600E6D878 /* Preview Assets.xcassets in Resources */,
+				9149DA92271DDAE200E6D878 /* sound-rise.mp3 in Resources */,
 				9149DA64271DD9A600E6D878 /* Assets.xcassets in Resources */,
+				9149DA93271DDAE200E6D878 /* sound-tap.mp3 in Resources */,
+				9149DA91271DDAE200E6D878 /* sound-ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +492,10 @@
 				DEVELOPMENT_TEAM = 8WH83DMLCD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tasker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -460,9 +523,10 @@
 				DEVELOPMENT_TEAM = 8WH83DMLCD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tasker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
