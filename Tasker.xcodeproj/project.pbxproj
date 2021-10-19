@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		911FC06E271F30BF00092960 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FC06D271F30BF00092960 /* HideKeyboardExtension.swift */; };
+		911FC070271F400500092960 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FC06F271F400500092960 /* BackgroundImageView.swift */; };
 		9149DA60271DD9A300E6D878 /* TaskerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA5F271DD9A300E6D878 /* TaskerApp.swift */; };
 		9149DA62271DD9A300E6D878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA61271DD9A300E6D878 /* ContentView.swift */; };
 		9149DA64271DD9A600E6D878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9149DA63271DD9A600E6D878 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		911FC06D271F30BF00092960 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		911FC06F271F400500092960 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 		9149DA5C271DD9A300E6D878 /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9149DA5F271DD9A300E6D878 /* TaskerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerApp.swift; sourceTree = "<group>"; };
 		9149DA61271DD9A300E6D878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				9149DA61271DD9A300E6D878 /* ContentView.swift */,
+				911FC06F271F400500092960 /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9149DA69271DD9A600E6D878 /* Persistence.swift in Sources */,
+				911FC070271F400500092960 /* BackgroundImageView.swift in Sources */,
 				9149DA6C271DD9A600E6D878 /* Tasker.xcdatamodeld in Sources */,
 				911FC06E271F30BF00092960 /* HideKeyboardExtension.swift in Sources */,
 				9149DAA0271DEC9800E6D878 /* Constant.swift in Sources */,
