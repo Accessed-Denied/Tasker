@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		911FC06E271F30BF00092960 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911FC06D271F30BF00092960 /* HideKeyboardExtension.swift */; };
 		9149DA60271DD9A300E6D878 /* TaskerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA5F271DD9A300E6D878 /* TaskerApp.swift */; };
 		9149DA62271DD9A300E6D878 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA61271DD9A300E6D878 /* ContentView.swift */; };
 		9149DA64271DD9A600E6D878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9149DA63271DD9A600E6D878 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		911FC06D271F30BF00092960 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
 		9149DA5C271DD9A300E6D878 /* Tasker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9149DA5F271DD9A300E6D878 /* TaskerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskerApp.swift; sourceTree = "<group>"; };
 		9149DA61271DD9A300E6D878 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 		9149DA96271DDB3C00E6D878 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				911FC06D271F30BF00092960 /* HideKeyboardExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 			files = (
 				9149DA69271DD9A600E6D878 /* Persistence.swift in Sources */,
 				9149DA6C271DD9A600E6D878 /* Tasker.xcdatamodeld in Sources */,
+				911FC06E271F30BF00092960 /* HideKeyboardExtension.swift in Sources */,
 				9149DAA0271DEC9800E6D878 /* Constant.swift in Sources */,
 				9149DA62271DD9A300E6D878 /* ContentView.swift in Sources */,
 				9149DA60271DD9A300E6D878 /* TaskerApp.swift in Sources */,
