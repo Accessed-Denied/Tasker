@@ -23,6 +23,7 @@
 		9149DA93271DDAE200E6D878 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9149DA90271DDAE200E6D878 /* sound-tap.mp3 */; };
 		9149DAA0271DEC9800E6D878 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9149DA9F271DEC9800E6D878 /* Constant.swift */; };
 		9194CFEA27228E4200778E80 /* CheckboxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194CFE927228E4200778E80 /* CheckboxStyle.swift */; };
+		9194CFEC2722B05600778E80 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194CFEB2722B05600778E80 /* SoundPlayer.swift */; };
 		91D88E1F2720226D008939D6 /* NewTaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D88E1E2720226D008939D6 /* NewTaskItemView.swift */; };
 		91D88E2127202B36008939D6 /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D88E2027202B36008939D6 /* BlankView.swift */; };
 		91D88E252720343A008939D6 /* NavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D88E242720343A008939D6 /* NavigationHeader.swift */; };
@@ -67,6 +68,7 @@
 		9149DA9A271DDC0C00E6D878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9149DA9F271DEC9800E6D878 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		9194CFE927228E4200778E80 /* CheckboxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxStyle.swift; sourceTree = "<group>"; };
+		9194CFEB2722B05600778E80 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 		91D88E1E2720226D008939D6 /* NewTaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskItemView.swift; sourceTree = "<group>"; };
 		91D88E2027202B36008939D6 /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
 		91D88E242720343A008939D6 /* NavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHeader.swift; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				9149DA9F271DEC9800E6D878 /* Constant.swift */,
+				9194CFEB2722B05600778E80 /* SoundPlayer.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9194CFEC2722B05600778E80 /* SoundPlayer.swift in Sources */,
 				91D88E252720343A008939D6 /* NavigationHeader.swift in Sources */,
 				9149DA69271DD9A600E6D878 /* Persistence.swift in Sources */,
 				911FC070271F400500092960 /* BackgroundImageView.swift in Sources */,

@@ -53,6 +53,8 @@ struct ContentView: View {
                     // MARK: - NEW TASK BUTTON
                     Button( action: {
                         showNewTaskItem = true
+                        playSound(sound: "sound-ding", type: "mp3")
+                        feedback.notificationOccurred(.success)
                     }, label: {
                         Image(systemName: "plus.circle")
                             .font(.system(size: 30, weight: .semibold, design: .rounded))
